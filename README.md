@@ -97,47 +97,54 @@ A web-based academic management system built with Laravel 12. EduGrade provides 
 ### Steps
 
 1. **Clone the repository**
-   ```bash
+
+```bash
    git clone https://github.com/itsmarlie/grading-system.git
    cd grading-system
-   ```
+```
 
 2. **Install PHP dependencies**
-   ```bash
+
+```bash
    composer install
-   ```
+```
 
 3. **Install JS dependencies**
-   ```bash
+
+```bash
    npm install
-   ```
+```
 
 4. **Set up environment**
-   ```bash
+
+```bash
    cp .env.example .env
    php artisan key:generate
-   ```
+```
 
 5. **Configure your database** in `.env`
-   ```env
+
+```env
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
    DB_DATABASE=your_database
    DB_USERNAME=root
    DB_PASSWORD=
-   ```
+```
 
 6. **Run migrations and seeders**
-   ```bash
+
+```bash
    php artisan migrate --seed
-   ```
+```
 
 7. **Start the development server**
-   ```bash
+
+```bash
    php artisan serve
    npm run dev
-   ```
+```
 
 8. **Visit** `http://127.0.0.1:8000`
 
