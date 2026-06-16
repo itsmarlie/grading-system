@@ -7,7 +7,7 @@ A web-based academic management system built with Laravel 12. EduGrade provides 
 ## 📸 Screenshots
 
 ### Admin Dashboard
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard](screenshots/Admin%20Dashboard.png)
 
 ### Student Dashboard
 ![Student Dashboard](screenshots/Student%20Dashboard.png)
